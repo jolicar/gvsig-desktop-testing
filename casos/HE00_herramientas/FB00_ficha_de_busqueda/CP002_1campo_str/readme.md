@@ -1,12 +1,12 @@
 
 ## HE00FB00CP002 Busqueda de un campo de tipo string en una tabla de datos
 
-### Descripción
+### Descripcion
 
-Cargar la tabla de datos,**FB_datos1.csv**, y comprobar que se puede realizar una busqueda de un registro dobre uno de sus campos.
+Cargar la tabla de datos,**FB_datos1.csv**, y comprobar que se puede realizar una busqueda de un registro dobre uno de sus campos. 
 
+La falta de datos en un campo de tipo string hace que los resultados no sean los que esperariamos.
 
- 
 ### Prerrequisitos
 
 1. Tener instalado *gvSIG desktop 2.5.1.* 
