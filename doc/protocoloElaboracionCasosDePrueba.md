@@ -56,7 +56,7 @@ La secuencia logica para trabajar gestionando un proyecto con GitHub es la sigui
     
 *NOTA: Ademas de lo anterior se puede realizar mas acciones con GitHub y su implementacion en gvSIG pero no se considera necesario explicarlo ya que para la creacion y gestion de casos de prueba lo anterior es mas que suficiente.*
 
-4. Buena praxis
+### 4. Buena praxis
 A continuacion se detallan una serie de recomendaciones a tener en cuenta para la correcta elaboracion de un caso de prueba.
 - Cuidar la ortografia en todo el documento.
 - Garantizar la comprension de todo el texto. Prestar especial atencion a la **Descripcion** ya que esta debe describir inequivocamente lo que se va a realizar.
