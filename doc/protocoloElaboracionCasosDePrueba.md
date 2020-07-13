@@ -6,8 +6,10 @@ Un caso de prueba no es mas que un breve documento que describe de manera detall
 Por tanto, la funcion principal de un caso de prueba es poder detectar errores de manera facil y sin apenas consumir tiempo y esfuerzo cada vez que se realizan cambios en el codigo del software.
 
 ### 2. Partes de un caso de prueba
-![Partes de un caso de prueba](https://github.com/jolicar/gvsig-desktop-testing/blob/master/doc/images/partesCasoDePrueba.PNG)
 Un caso de prueba es un documento en formato Markdown (.md) compuesto por las partes que se detalla en la siguiente ilustracion.
+
+![Partes de un caso de prueba](https://github.com/jolicar/gvsig-desktop-testing/blob/master/doc/images/partesCasoDePrueba.PNG)
+
   1) **Titulo**. Esta compuesto por un identificador unico mas una breve frase de describe que se va a probar.
   2) **Enlace de peticion existente con ese caso**. Enlace a la web de control de errores de gvSIG con el identificador unico de forma que se puede comprobar si ya hay algun reporte de error asociado al caso en cuestion.
   3) **Descripcion**. Breve texto que resume la accion a realizar asi como el tipo de resultados obtenidos. La descripcion debe identificar sin ninguna tipo de duda el comportamiento a testear. 
@@ -21,6 +23,7 @@ Como se cita en el anterior apartado los casos de prueba son documentos en forma
 En este [enlace](https://www.youtube.com/watch?time_continue=148&v=y6XdzBNC0_0&feature=emb_logo ) puedes ver de manera rapida las diferentes formas de editar un texto en Markdown.
 
 A parte de lo anterior, el **Editor de Scripts** de gvSIG al tratar con archivos en este formato, permite realizar mediante iconos alguna de esas formas para facilitar aun mas el trabajo.
+
 ![Iconos de Markdown en gvSIG](https://github.com/jolicar/gvsig-desktop-testing/blob/master/doc/images/iconosMD.png)
 
 ### 3. Almacenamiento 
@@ -33,12 +36,14 @@ El almacenamiento de los casos de prueba se realiza en una estructura de carpeta
 
   - **Datos**. Esta carpeta al igual que la anterior se subdivide en otras subcarpetas que almacena si es necesario los datos para ejecutar los casos de prueba. Esta carpeta se suele utilizar si todos los casos de prueba de una herramienta presentan el mismo dataset, si cada caso presenta un conjunto de datos diferente este se almacena en la carpeta que contiene el archivo markdown.
   - **Planes**. Al igual que las dos anteriores, la carpeta se subdivide en otras subcarpetas en funcion de las diferentes herramientas. En esta carpeta se guardan los planes de prueba que son un documento que engloba todos los casos de prueba para una herramienta. A continuacion se muestra la estructura de un plan de prueba.
+
 ![Estructura plan de prueba](https://github.com/jolicar/gvsig-desktop-testing/blob/master/doc/images/planDePrueba.png)
 
 #### 3.1 GitHub
 En este subapartado del apartado **3. Almacenamiento** se esboza la herramienta que utiliza el software gvSIG para el control de versiones, lo que mas coloquialmente podria decirse como creacion de copias de seguridad en linea.
 La herramienta utilizada en cuestion es GitHub y no solo permite la gestion de copias de seguridad en linea sino que tambien permite trabajar a varios usuarios sobre un mismo proyecto de manera simultanea. Dicha herramienta para mayor comodidad de los usuarios y desarrolladores ha sido implantada en el **Editor de Scripts** de gvSIG Desktop.
 El acceso a la herramienta pude realizarse de dos modos, accediendo a **git** dentro de la pestana **Herramientas**, ver siguiente ilustracion.
+
 ![Acceso 1 a herramientas GitHub](https://github.com/jolicar/gvsig-desktop-testing/blob/master/doc/images/accesoGit.png)
 
 La segunda forma de acceder a los diferentes utiles de la herramienta es mediante iconos presentes en el propio interfaz del *Editor de Scripts* de gvSIG Desktop.
