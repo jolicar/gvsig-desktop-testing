@@ -29,7 +29,9 @@ A parte de lo anterior, el **Editor de Scripts** de gvSIG al tratar con archivos
 ### 3. Almacenamiento 
 El almacenamiento de los casos de prueba se realiza en una estructura de carpetas de modo que estos queden diferenciados segun la herramienta que testeen. Dicha estructura de carpetas se basa en una carpeta madre llamada testing, la contiene tres carpetas hijas llamadas casos, datos y planes.
   - **Casos**. Dicha carpeta es la mas importante y en ella se almacenan los casos como tal. Esta carpeta almacena todos los casos de prueba del software divididos en varias “capas” de subcarpetas o carpetas hijas. Un ejemplo de esto se detalla a continuacion; Si se busca realizar el caso de prueba detallado en el apartado 2, este se almacenara en la siguiente sucesion de carpetas.
+    
     ***testing/casos/HE00_herramientas/FB00_ficha_de_busqueda_simple/CP002_1c_igual_str***
+    
     La carpeta  ***HE00_herramientas*** almacena los casos de prueba referentes a herramientas del software, la carpeta  ***FB00_ficha_de_busqueda_simple*** guarda los casos de la herramienta ficha de busqueda simple y por ultimo la carpeta ***CP002_1c_igual_str*** es la que almacena todo lo referente a ese caso en cuestion, en este caso un archivo readme.md.
 
 *NOTA: Los caracteres iniciales de cada carpeta conforman el identificador unico con el que se identifica de manera inequivoca al caso de prueba.*
